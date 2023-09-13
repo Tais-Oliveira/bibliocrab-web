@@ -1,0 +1,27 @@
+#cad-cliente{
+    background: linear-gradient(90deg,rgba(9, 9, 79, 0.824),rgba(66, 100, 165, 0.668));/* rgb(0, 46, 93)*/;
+}
+
+.p-login{
+    color: white;
+}
+
+.p-login b{
+    color: #ffc1b6cb;
+}
+ #body-cliente{
+    background: linear-gradient( #d5dbf99b , #d5dbf9e0), url("../..//images/CANVASBIBLIOCRAB\ \(2\).jpg") center/cover no-repeat;
+ }
+
+ #btn-cliente{
+    background-color: white;
+    color: #f9492a;
+    font-weight: 500;
+   border-radius: 10px;
+ }
+
+ #btn-cliente:hover{
+    background-color: #f9492acb;
+    color: white;
+
+ }

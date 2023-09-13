@@ -1,0 +1,334 @@
+ @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono&display=swap');
+
+
+.crab .img-crab{
+    max-width: auto;
+}
+
+.btn {
+    background-color: #ff6c28;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.4s;
+}
+.btn.animate-btn{
+    animation: animate-outline 1s ease-out infinite;
+}
+.btn:hover{
+    background-color: #ff1e00bf;
+}
+@keyframes animate-outline {
+    from{
+        outline: 0px solid #ff743376;
+    }
+    to{
+        outline: 15px solid #ff74331a;
+    }
+}
+
+.cont-sobre{
+    background: linear-gradient(#ffffff, #ffffffe6), url("../../images/raizes2.jpeg") center/cover no-repeat;
+    flex-direction: column;
+}
+.sobre-mais .container{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    color: #5a5777;
+}
+.sobre-mais .sobre-mais-text{
+    width: 50%;
+    padding: 0 40px;
+}
+.sobre-mais .sobre-mais-text h3{
+    font-size: 38px;
+    color: #ff5100;
+}
+.sobre-mais .sobre-mais-text p{
+    margin: 5px 0 10px 0;
+}
+.sobre-mais .sobre-mais-img {
+   width: 50%;
+   
+}
+.sobre-mais .sobre-mais-img img{
+  max-width: 65%;
+  margin-left: 40px;
+  height: 70%;
+}
+
+/*Responsivo home*/
+.sobre-mais .sobre-mais-text{
+    margin-top: 10px;
+    padding: 0 20px;
+    order: 1;
+}
+
+.sobre-mais .sobre-mais-text, .sobre-mais .sobre-mais-img{
+    width: 100%;
+}
+
+@media (max-width:970px) {
+
+    .cont-sobre{
+        flex-direction: column;
+        margin-top: -45%;
+    }
+
+.sobre-mais-img{
+    width: 80%;
+}
+    .sobre-mais-text{
+        margin-bottom: -20%;
+        width: 100%;
+        font-size: 13px;
+    }
+    .sobre-mais .sobre-mais-text h3{
+        font-size: 30px;
+    }
+    .btn{
+        padding: 5px 15px ;
+        margin-bottom: 100px;
+        margin-top: 0;
+        font-size: 15px;
+    }
+
+}
+@media (max-width:414px) {
+
+    .cont-sobre{
+        margin-top: -55rem;
+    }
+}
+
+.newslatter{
+    background: linear-gradient(#c6d6f765, #03720372), url("../../images/34.jpg") center/cover no-repeat;
+    flex-direction: column;
+    padding: 25px 0;
+    color: #241e58e9;
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+}
+
+#input_group_news input {
+    all: unset;
+    padding: 6px 20px;
+    background-color: #ffffff6b;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid;
+}
+
+#input_group_news #email::placeholder{
+    float: left;
+    color: #090d45;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#subscribe-news p{
+    font-weight: 550;
+}
+
+#input_group_news button {
+    background-color: #241E58;
+    border: none;
+    color: white;
+    padding: 3.2px 10px 9px 10px;
+    border-radius: 0px 4px 4px 0px;
+    margin-top: 7px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+#input_group_news button:hover #crab-news {
+    color: #ff5100;
+}
+
+
+/*objetivos*/
+
+.objetivos h3{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.objetivos p{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #070243;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.objetivos .card-item{
+    background-color: #f9dccf;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+    margin-bottom: 50px;
+}
+.icon-obj {
+    padding: 40px;
+    border-radius: 50px;
+    color: #ff7333;;
+    transition: 0.3s;
+}
+.objetivos .card-item .nome-obj{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.objetivos .card-item .desc-obj{
+    font-size: 15px;
+    padding: 0 15px;
+    transition: 0.3s;
+}
+
+.objetivos .card-item:hover{
+    background-color: #ff7333;
+    margin-top: -5px;
+}
+.objetivos .card-item:hover .nome-obj, .objetivos .card-item:hover .desc-obj, .objetivos .card-item:hover .icon-obj{
+    color: white;
+}
+
+
+/*servicea*/
+
+#cont-serv{
+    max-width: 1500px;
+}
+.services{
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+.services h3{
+    text-align: center;
+    font-size: 35px;
+}
+.services .container >p {
+text-align: center;
+transition: 0.4s;
+}
+.services .rows-cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.services .row-card-item{
+    background-color: #fbf0eb;
+    width: 350px;
+    padding: 20px;
+    border-radius: 14px;
+    margin: 20px;
+    transition: 0.3s;
+}
+.services .row-card-item:hover{
+    background-color: #0b0363ab;
+}
+.services .row-card-item:hover p{
+    color: #dddbfa;
+}
+.services .row-card-item img{
+    background-color: #ff6c28;
+    border-radius: 14px;
+    width: 70px;
+    padding: 9px;
+    transition: 0.3s;
+}
+.services .row-card-item:hover img{
+    background-color: #0b0363ab;
+}
+.services .row-card-item p.nome-service{
+    margin: 5px;
+    transition: 0.3s;
+}
+
+
+/*----------blog----------*/
+
+
+.container-blog h3{
+    text-align: center;
+    font-size: 35px;
+}
+.container-blog p{
+    margin-bottom: 30px;
+    text-align: center;
+    color: #241E58;
+}
+
+.blog h4{
+    margin-top: -5px;
+    background-color: #40397a;
+    background: linear-gradient(#110875c0, #141045c0), url("../../images/34.jpg") center/cover no-repeat;
+    padding: 3px;
+    border-radius: 0;
+    color: #f7ffe1;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+
+.blog p{
+    text-align: center;
+    color: #241E58;
+    font-size: 14px;
+    padding: 0 15px;
+    transition: 0.4s;
+}
+.cards-blog{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog .card-item-blog{
+    border: 2px solid #c1bde494;
+    margin: 15px;
+    border-radius: 7px;
+    text-align: center;
+    width: 350px;
+    transition: 0.3s;
+    margin-bottom: 50px;
+    transition: 0.4s;
+}
+
+.card-item-blog img {
+    border-radius: 5px;
+    transition: 0.3s;
+    width: 100%;
+    height: 25%;
+}
+
+.blog .card-item-blog:hover{
+    background-color: #d5d4e4;
+}
+.card-item-blog button{
+    background-color: #40397a;
+    padding: 5px 23px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.card-item-blog button:hover{
+    background-color: #ff6b30;
+}
+

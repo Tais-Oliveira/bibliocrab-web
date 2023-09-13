@@ -1,0 +1,31 @@
+#cad-adm{
+    background: linear-gradient(90deg,rgba(9, 9, 79, 0.824),rgba(66, 100, 165, 0.668));/* rgb(0, 46, 93)*/;
+}
+
+.p-loginadm{
+    color: white;
+}
+
+.p-loginadm b{
+    color: rgb(170, 170, 209);
+}
+ #body-adm{
+    background: linear-gradient( #d5dbf985 , #d5dbf996), url("../..//images/CANVASBIBLIOCRAB\ \(2\).jpg") center/cover no-repeat;
+ }
+
+ #btn-adm{
+    background-color: white;
+    color: rgb(14, 52, 147);
+    font-weight: 500;
+   border-radius: 10px;
+ }
+
+ #btn-adm:hover{
+    background-color: rgba(38, 24, 109, 0.904);
+    color: white;
+
+ }
+
+ #inp-adm input{
+    border: 1px solid rgb(0, 21, 255);
+ }
